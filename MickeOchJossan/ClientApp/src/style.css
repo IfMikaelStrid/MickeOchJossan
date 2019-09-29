@@ -1,0 +1,46 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+.rubrik {
+    font-family: 'Great Vibes', cursive;
+    font-size: 8vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paragraf {
+    font-family: 'Great Vibes', cursive;
+    font-size: 6vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    padding:20px;
+    width:100%;
+}
+
+.carouselContainer {
+
+}
+.imageBackground1 {
+    background-color:white;
+}
+.cardContainer {
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.card {
+
+}
