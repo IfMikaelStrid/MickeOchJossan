@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
 
 .rubrik {
     font-family: 'Great Vibes', cursive;
@@ -30,7 +31,13 @@
 }
 
 .carouselContainer {
-
+    transform: rotate(10deg);
+    padding: 20px;
+    z-index: 100;
+    width: 40%;
+    align-self: center;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .gold-text {
@@ -46,6 +53,12 @@
     background-color:white;
 }
 
+.polaroidText {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+}
+
 .cardContainer {
     margin-top:20px;
     display: flex;
@@ -53,10 +66,34 @@
     justify-content: center;
     width: 100%;
 }
+
+.polaroidImage {
+    position: absolute;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
 .card {
     border:none;
-    width:40%;
+    width:100%;
 }
+
+
+.imageCrop {
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    /* margin: 10px; */
+    position: relative;
+}
+
 @media only screen and (max-width: 800px) {
     .card {
         width:100%;
@@ -78,5 +115,11 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-
+    .carouselContainer {
+        transform: rotate(0deg);
+        width:100%;
+    }
+    .card-lower {
+        padding-top: 40px;
+    }
 }

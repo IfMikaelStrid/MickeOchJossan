@@ -114,6 +114,7 @@ app {
     font-family: 'Great Vibes', cursive;
     font-size:6vh;
 }
+
 @media (max-width: 767.98px) {
     .main .top-row {
         display: none;
