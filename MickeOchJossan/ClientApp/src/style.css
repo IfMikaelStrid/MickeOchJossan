@@ -14,6 +14,9 @@
     margin-right: 20px;
 }
 
+.card-lower{
+    background-color: white;
+}
 .tag {
     display: flex;
     align-items: center;
@@ -21,7 +24,6 @@
 }
 
 .footer {
-    position:absolute;
     bottom:0;
     padding:20px;
     width:100%;
@@ -30,17 +32,51 @@
 .carouselContainer {
 
 }
+
+.gold-text {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(https://img1.goodfon.com/wallpaper/nbig/d/6c/gold-texture-golden-zoloto-fon-3619.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
 .imageBackground1 {
     background-color:white;
 }
+
 .cardContainer {
-    margin-top:50px;
+    margin-top:20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     width: 100%;
 }
 .card {
+    border:none;
+    width:40%;
+}
+@media only screen and (max-width: 800px) {
+    .card {
+        width:100%;
+    }
+    .cardContainer {
+        margin-top:0px;
+    }
+
+    .rubrik {
+        font-family: 'Great Vibes', cursive;
+        font-size: 6vh;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .paragraf {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3vh;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 }

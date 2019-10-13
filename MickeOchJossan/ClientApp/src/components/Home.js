@@ -13,11 +13,13 @@ export class Home extends Component {
                     <div className="carouselContainer">
                         <Carousel />
                     </div>
-                    <div className="text-center rubrik ">
-                        Save The Date
-                    </div>
-                    <div className="text-center paragraf">
-                        13 Juni 2020
+                    <div className="card-lower">
+                        <div className="text-center rubrik">
+                            Save The Date
+                        </div>
+                        <div className="text-center paragraf">
+                            13 Juni 2020
+                        </div>
                     </div>
                 </div>
             </div>
